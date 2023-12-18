@@ -1,3 +1,15 @@
+---
+jupytext:
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
+
 Denver Guide
 ============
 
@@ -15,30 +27,37 @@ Resources
 
 * [Denver Neighborhood Guide](https://www.denver.org/neighborhoods/)
 
-| Name                                    |                  | -                                | Location |
-|-----------------------------------------|------------------|----------------------------------|----------|
-| [River North Art District][] ([RiNo][]) | [Five Points][]  | street art, galleries, nightlife | -        |
-| [Santa Fe Arts District][]              | [Lincoln Park][] | galleries, street art, shopping  | -        |
-| Tennison                                |                  |                                  |          |
-| [Five Points][]                         |                  |                                  |          |
-| [Lincoln Park][]                        |                  |                                  |          |
-| [Lower Downtown][] ([LoDo][])           | [Downtown][]     |                                  |          |
-| [Downtown][]                            |                  |                                  |          |
-| [Confluence Park][]                     | [Highlands][]    | street art                       |          |
-| [Highlands][]                           |                  |                                  |          |
-| [South Broadway][]                      |                  | street art                       |          |
-|                                         |                  |                                  |          |
-|                                         |                  |                                  |          |
+| Name                                        |                  | -                                | Location |
+|---------------------------------------------|------------------|----------------------------------|----------|
+| [River North Art District][RiNo] ([RiNo][]) | [Five Points][]  | street art, galleries, nightlife | -        |
+| [Santa Fe Arts District][]                  | [Lincoln Park][] | galleries, street art, shopping  | -        |
+| [Five Points][]                             |                  |                                  |          |
+| [Lower Downtown][LoDo] ([LoDo][])           | [Downtown][]     |                                  |          |
+| [Larimer Square][]                          | [Downtown][]     |                                  |          |
+| [Downtown][]                                |                  |                                  |          |
+| [Highlands][]                               |                  |                                  |          |
+| [Lower Highlands][LoHi] ([LoHi][])          | [Highlands][]    |                                  |          |
+| [South Broadway][]                          |                  | street art                       |          |
+|                                             |                  |                                  |          |
+|                                             |                  |                                  |          |
+% | [Confluence Park][]                         | [Highlands][]    | street art                       |          |
+% | [Lincoln Park][]                            |                  |                                  |          |
+% | Tennison                                    |                  |                                  |          |
+% |                                             |                  |                                  |          |
 
-[River North Art District]: https://rinoartdistrict.org/
+[RiNo]: https://rinoartdistrict.org/
 [Santa Fe Arts District]: https://www.denver.org/neighborhoods/art-district-on-santa-fe/
 [Downtown]: https://www.denver.org/neighborhoods/downtown-denver/
-[Lower Downtown]:
-[LoDo]:
+[Five Points]: https://www.denver.org/neighborhoods/five-points/
+[LoDo]: https://www.denver.org/listing/lodo/3931/
+[Highlands]: https://www.denver.org/neighborhoods/highlands/
+[LoHi]: https://www.denver.org/neighborhoods/highlands/
+[South Broadway]: https://www.denver.org/neighborhoods/south-broadway/
+[Larimer Square]: https://www.denver.org/things-to-do/attractions/larimer-square/
 
 #### River North Art District
 
-* [RiNo Art District][https://rinoartdistrict.org/]
+* [RiNo Art District][RiNo]
 * [Denver.org > RiNo Guide](https://www.denver.org/neighborhoods/rino-river-north-art-district/)
 
 
@@ -46,32 +65,26 @@ Resources
 
 * [Denver.org > Murals & Street Art](https://www.denver.org/things-to-do/arts-culture/murals-street-art/)
 
-| Name                       |              | Location         |
-|----------------------------|--------------|------------------|
-| [Santa Fe Arts District][] | Art District | -                |
-| [RiNo Art District][]      | Art District | [][rad-location] |
-
-[RiNo]: https://www.denver.org/things-to-do/arts-culture/murals-street-art/
-[RiNo Art District]: https://rinoartdistrict.org/
-[rad-location]: https://rinoartdistrict.org/guide/places-to-eat-drink
-[Santa Fe Arts District]: https://denversartdistrict.org/first-friday
-
 Places to Go
 ------------
 
 ### Cultural
 
 |                           |         |                  |
+|---------------------------|---------|------------------|
 | [Center for Visual Art][] | gallery | Denver, Santa Fe |
 
 [Center for Visual Art]: https://www.msudenver.edu/cva/
 
-### Areas
+### Shopping Centers & Marketplaces
 
-| Name              |                        | Location     |
-|-------------------|------------------------|--------------|
-| [Union Station][] | food, drinks, shopping | [Downtown][] |
-|                   |                        |              |
+| Name                          | Location     |
+|-------------------------------|--------------|
+| [Union Station][]             | [Downtown][] |
+| [The Source][]                | [RiNo][]     |
+| [Zeppelin Station][]          | [RiNo][]     |
+| [The Denver Central Market][] | [RiNo][]     |
+|                               |              |
 
 [Union Station]: https://www.denver.org/things-to-do/attractions/union-station/
 
@@ -81,11 +94,7 @@ Places to Go
 | Name                          |                         |      | Days | Location     |
 |-------------------------------|-------------------------|------|------|--------------|
 | [Work & Class][]              | Fancy Comfort           | `$$` | W-Su | Denver, RiNo |
-| [The Source][]                | Food Court, Marketplace |      | M-Su | Denver, RiNo |
-| [Zeppelin Station][]          | Food Court, Marketplace | -    | M-Su | Denver, RiNo |
-| [The Denver Central Market][] | Food Court, Marketplace | -    | M-Su | Denver, RiNo |
-|                               |                         |      |      |              |
-|                               |                         |      |      |              |
+% |                               |                         |      |      |              |
 
 [Work & Class]: https://workandclassdenver.com/
 
@@ -103,8 +112,10 @@ Places to Go
 | [Colorado Sake Co][]             | brewery, food         | -    | M-Su        | Denver, RiNo     |
 | [Black Sky Brewery][]            | brewery, pizza, metal | `$$` | M-Su        | Denver, Santa Fe |
 | [Stranahan's Colorado Whiskey][] | distillery, cocktails | `$$` | M-Su        | Denver, Santa Fe |
-|                                  |                       | -    |             |                  |
-|                                  |                       | -    |             |                  |
+| [Dragon Meadery][]               | meadery               |      |             | Aurora           |
+| [Drekar Meadery][]               | meadery               | -    |             | Colorado Springs |
+| [Queen Bee Brews][]              | meadery               | -    |             | Denver           |
+% |                                  |                       | -    |             |                  |
 
 [Edgewater Beer Garden]: https://www.edgewaterbeergarden.com/
 [The Source]: https://www.denver.org/listing/the-source/7858/
@@ -116,6 +127,10 @@ Places to Go
 [Stem Ciders]: https://stemciders.com/
 [Colorado Sake Co]: https://www.coloradosakeco.com/
 [Black Sky Brewery]: https://blackskybrewing.com/index.html
+[Stranahan's Colorado Whiskey]: https://stranahans.com/
+[Dragon Meadery]: https://www.yelp.com/biz/dragon-meadery-aurora?osq=meadery
+[Drekar Meadery]: https://drekarmeadery.com/
+[Queen Bee Brews]: https://www.queenbeebrews.com/index.html
 
 ### Attractions
 
@@ -126,10 +141,10 @@ Places to Go
 
 ### City Strolls
 
-[City Park](https://www.cmc.org/education-adventure/trips/routes-places/city-park)
-[Cherry Creek Trail](https://www.cmc.org/education-adventure/trips/routes-places/cherry-creek-trail)
-[Platte River Trail](https://www.cmc.org/education-adventure/trips/routes-places/platte-river-trail-to-sand-creek-to-front-range-trail-head-and-return)
-[Arkins Promenade](https://www.denver.org/blog/post/arkins-promenade/)
+* [City Park](https://www.cmc.org/education-adventure/trips/routes-places/city-park)
+* [Cherry Creek Trail](https://www.cmc.org/education-adventure/trips/routes-places/cherry-creek-trail)
+* [Platte River Trail](https://www.cmc.org/education-adventure/trips/routes-places/platte-river-trail-to-sand-creek-to-front-range-trail-head-and-return)
+* [Arkins Promenade](https://www.denver.org/blog/post/arkins-promenade/)
 
 ### Venues
 
@@ -166,8 +181,7 @@ Events
 |-------------------------------|---------------|---------|------------|
 | [First Friday Art Walk][]     | RiNo          | Monthly | 1st Friday |
 | [FarmFresh Farmer's Market][] | Union Station | Weekly  | Sunday's   |
-|                               |               |         |            |
-|                               |               |         |            |
+% |                               |               |         |            |
 
 
 [First Friday Art Walk]: https://denversartdistrict.org/first-friday
@@ -179,7 +193,7 @@ Events
 |---------------------------|--------|--------|------|------------------|
 | [New Member Hike][]       | -      | Dec 23 | 1    | Golden           |
 | [Photo Section Meeting][] | -      | Jan 10 | 1    | Golden           |
-|                           |        |        |      |                  |
+% |                           |        |        |      |                  |
 
 [Photo Section Meeting]: https://www.cmc.org/groups-sections/special-interest-sections/photo-section/calendar-of-events/photography-section-january-meeting-2024-01-10
 [New Member Hike]: https://www.cmc.org/education-adventure/trips/find-trips/new-prospective-member-hikes-2013-apex-trailhead-24
@@ -192,20 +206,17 @@ Events
 | Glow at the Gardens       | October             | `$27`  | Denver   | [Denver Botanic Gardens][] |
 | Trail of Lights           | November - January  | `$16`  | Denver   | [Denver Botanic Gardens][] |
 | The Nutcracker            | November - December | `$105` | Denver   | [Colorado Ballet][]        |
-|                           |                     |        |          |                            |
-|                           |                     |        |          |                            |
+% |                           |                     |        |          |                            |
 
 ### Festivals
 
-| Name                      | Dates               | Price  | Location | Promoter                   |
-|---------------------------|---------------------|--------|----------|----------------------------|
-| [Denver Walls Festival][] | September - October | -      | Denver   | [RiNo Art District][]      |
-| Day of the Dead Parade    | October             | -      | Denver   | [Santa Fe Arts District][] |
-| Denver Chalk Art Festival |                     |        |          | [Larimer Square][]         |
-|                           |                     |        |          |                            |
+| Name                      | Dates               | Price | Location | Promoter                   |
+|---------------------------|---------------------|-------|----------|----------------------------|
+| [Denver Walls][]          | September - October | -     | Denver   | [RiNo Art District][RiNo]  |
+| Day of the Dead Parade    | October             | -     | Denver   | [Santa Fe Arts District][] |
+| Denver Chalk Art Festival |                     |       |          | [Larimer Square][]         |
+% |                           |                     |       |          |                            |
 
-
-* [Denver Walls Announcement](https://rinoartdistrict.org/post/denver-walls-mural-festival-announcement-2023-09-18)
 
 [Denver Walls]: https://www.denverwalls.com/
 
@@ -230,7 +241,7 @@ CMC
 | [Basic Climbing][]        | `$75`  | Jan 10 | 1    | Golden           |
 | [WTS][]                   | `$170` | Spring | 15+  | Golden           |
 | [Photo Section][]         | -      | -      | -    | -                |
-|                           |        |        |      |                  |
+% |                           |        |        |      |                  |
 
 [Photo Section]: https://www.cmc.org/groups-sections/special-interest-sections/photo-section
 [WTS]: https://www.cmc.org/education-adventure/schools-courses/schools-classes-overviews/wilderness-trekking-school

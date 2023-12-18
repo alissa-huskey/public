@@ -22,13 +22,13 @@ execute:
   execute_notebooks: force
 
 # Define the name of the latex output file for PDF builds
-latex:
-  latex_documents:
-    targetname: book.tex
+# latex:
+#   latex_documents:
+#     targetname: book.tex
 
 # Add a bibtex file so that we can create citations
-bibtex_bibfiles:
-  - references.bib
+# bibtex_bibfiles:
+#   - references.bib
 
 repository:
   url: https://github.com/alissa-huskey/public
@@ -46,5 +46,6 @@ sphinx:
     html_theme_options:
       use_download_button: false
       use_fullscreen_button: false
+      show_prev_next: false
 
-exclude_patterns            : [ denver-guide.md ]
+exclude_patterns            : []
