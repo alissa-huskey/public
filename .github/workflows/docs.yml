@@ -25,7 +25,7 @@ jobs:
     - name: Install Python
       uses: actions/setup-python@v5
       with:
-        python-version: 3.9.1
+        python-version: 3.9.18
 
     # install poetry
     # https://github.com/marketplace/actions/poetry-install
