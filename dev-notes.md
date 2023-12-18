@@ -11,10 +11,16 @@ Static html pages are generated using [Jupyter Book][] and published on
 Build
 -----
 
-To run locally first use poetry to install dependencies and start a shell.
+### Prerequisites
+
+* Poetry
+* Python 3.9+
+
+To run a local build first use poetry to install dependencies and start a
+shell.
 
 Generate static pages and run a web server, using the bash scripts in the
-`tools` directory. But the simple version is:
+`tools` directory. Alternately the simple version is:
 
 ```bash
 # generate the static files
@@ -24,16 +30,11 @@ jupyter-book build docs
 python -m http.server --directory docs/_build/html
 ```
 
-### Prerequisites
-
-* Poetry
-* Python 3.9+
-
 Deploy
 ------
 
 Content is deployed via a [Github Pages Action][] that is triggered whenever a
-commit is made to the master branch that touches the `docs/` folder or the
+commit is made to the main branch that touches the `docs/` folder or the
 github action yml file.
 
 When the job runs, a production `requirements.txt` file is exported using
@@ -46,15 +47,15 @@ The content of this branch is served on the github pages site.
 
 ### Setup
 
-Most of the setup is done in the [][.github/workflows/docs.yml] config file.
+Most of the setup is done in the [](.github/workflows/docs.yml) config file.
 
-Additionally, a deploy key was created and added to the repository 
-[more info][deploy-key], and the following repo settings are saved on the
-github web interface.
+Additionally, a deploy key was created and added to the repository ([more
+info][deploy-key]), and the following repo settings are saved on the github web
+interface.
 
 * Pages:
   * Branch: `gh-pages`
   * Folder: `/ (root)`
 * Secrets & Deploy Key `ACTIONS_PAGES_DEPLOY_KEY`
 
-[deploy-key]: # https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-create-ssh-deploy-key
+[deploy-key]: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-create-ssh-deploy-key

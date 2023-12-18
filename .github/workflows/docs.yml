@@ -1,0 +1,65 @@
+# Github Action to trigger automatically build and deploy docs
+name: deploy-docs
+
+# trigger when the main branch changes
+on:
+  workflow_dispatch:
+  push:
+    branches:
+    - main
+    paths:
+    - "docs/**"
+    - .github/workflows/docs.yml
+
+jobs:
+  deploy-docs:
+    runs-on: ubuntu-latest
+    steps:
+    # checkout repo
+    # https://github.com/marketplace/actions/checkout
+    - name: Checkout Git Repo
+      uses: actions/checkout@v4
+
+    # install Python
+    # https://github.com/marketplace/actions/setup-python
+    - name: Install Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: 3.9.1
+
+    # install poetry
+    # https://github.com/marketplace/actions/poetry-install
+    # NOTE: Using this other version instead since it uses node16 instead of
+    #       node12, required for github actions apparently.
+    # https://github.blog/changelog/2023-06-13-github-actions-all-actions-will-run-on-node16-instead-of-node12-by-default/
+    # https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions#runs-for-javascript-actions
+    # https://github.com/arlekinjose/poetry-install/tree/arlekinjose-use-node16
+    - name: Install Poetry
+      uses: arlekinjose/poetry-install@arlekinjose-use-node16
+      env:
+        POETRY_VIRTUALENVS_CREATE: false
+
+    # install pip dependencies
+    - name: Install dependencies
+      run: |
+        poetry export --without-hashes --without dev > docs/.requirements.txt
+        pip install -r docs/.requirements.txt
+
+    # generate static HTML files
+    - name: Build the book
+      run: |
+        jupyter-book --version
+        jupyter-book build docs
+
+    # push build to gh-pages branch
+    # https://github.com/peaceiris/actions-gh-pages
+    - name: Deploy Docs
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        # https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-set-ssh-private-key-deploy_key
+        # https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-create-ssh-deploy-key
+        deploy_key: ${{ secrets.ACTIONS_PAGES_DEPLOY_KEY }}
+        publish_dir: ./docs/_build/html
+        user_name: 'peaceiris/actions-gh-pages[bot]'
+        user_email: 'actions-gh-pages[bot]@users.noreply.github.com'
+        commit_message: ${{ github.event.head_commit.message }}
