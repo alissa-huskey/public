@@ -56,6 +56,11 @@ interface.
 * Pages:
   * Branch: `gh-pages`
   * Folder: `/ (root)`
-* Secrets & Deploy Key `ACTIONS_PAGES_DEPLOY_KEY`
+* Secrets > Actions > Repository Secrets
+  * name: `ACTIONS_PAGES_DEPLOY_KEY`
+  * value: contents of `gh-pages` file
+* Deploy Key
+  * name: `Public Key of ACTIONS_PAGES_DEPLOY_KEY`
+  * value: contents of `gh-pages.pub` file
 
 [deploy-key]: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-create-ssh-deploy-key
