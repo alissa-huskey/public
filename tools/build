@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+#
+# dev env build script
+
+main() {
+  local path="docs"
+  local -a args
+
+  while [[ $# -gt 0 ]]; do
+    if ! [[ "${1}" =~ ^- ]]; then
+      path="${1}"
+    else
+      args+=( "${1}" )
+    fi
+    shift
+  done
+
+  [[ ${#args[@]} -gt 0 ]] && set -- "${args[@]}"
+  [[ ${#args[@]} -eq 0 ]] && set --
+
+  poetry run jupyter-book build ${1:+"$@"} "${path}"
+}
+
+main ${1:+"$@"}

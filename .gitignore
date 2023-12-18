@@ -1,0 +1,5 @@
+.env
+docs/_build
+.cache
+__pycache__
+tmp

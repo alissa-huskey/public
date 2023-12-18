@@ -1,0 +1,50 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: Public Files
+author: ""
+# logo: logo.png
+
+html:
+  use_edit_page_button      : false
+  use_repository_button     : false
+  use_issues_button         : false
+  use_multitoc_numbering    : false
+  extra_footer              : ""
+  google_analytics_id       : ""
+  home_page_in_navbar       : true  # Whether to include your home page in the left Navigation Bar
+  baseurl                   : https://alissa-huskey.github.io/public/
+
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: force
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: book.tex
+
+# Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - references.bib
+
+repository:
+  url: https://github.com/alissa-huskey/public
+  path_to_book: docs
+  branch: main
+
+# Add GitHub buttons to your book
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+html:
+  use_issues_button: false
+  use_repository_button: false
+
+sphinx:
+  config:
+    html_theme_options:
+      use_download_button: false
+      use_fullscreen_button: false
+
+exclude_patterns            : [ denver-guide.md ]
