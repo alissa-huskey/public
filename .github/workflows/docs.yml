@@ -11,6 +11,12 @@ on:
     - "docs/**"
     - .github/workflows/docs.yml
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   # generate static content and push to gh-pages branch
   build:
