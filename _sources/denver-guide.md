@@ -48,6 +48,8 @@ Places to Go
 * [Arkins Promenade](https://www.denver.org/blog/post/arkins-promenade/)
 * [High Line Canal Trail](https://highlinecanal.org/2021/07/itineraries/)
 * [Trails at Red Rocks Park](https://www.redrocksonline.com/explore-red-rocks/recreation/)
+* [Highline Canal, Tollgate, Cherry Creek Loop](https://www.cmc.org/education-adventure/trips/routes-places/highline-canal-tollgate-cherry-creek-loop)
+* [Lee Gulch Trail](https://www.cmc.org/education-adventure/trips/routes-places/lee-gulch-trail)
 
 ### Entertainment
 
@@ -190,14 +192,6 @@ Events
 * [RiNo Art District > Events Calendar](https://rinoartdistrict.org/visit/events-calendar)
 * [Denver.org > Denver Events 2023-2024](https://www.denver.org/blog/post/event-planning-guide/)
 
-### Upcoming
-
-| Course                    | Price  | Start  | Days | Location         |
-|---------------------------|--------|--------|------|------------------|
-| [New Member Hike][]       | -      | Dec 23 | 1    | Golden           |
-| [Photo Section Meeting][] | -      | Jan 10 | 1    | Golden           |
-% |                           |        |        |      |                  |
-
 [Photo Section Meeting]: https://www.cmc.org/groups-sections/special-interest-sections/photo-section/calendar-of-events/photography-section-january-meeting-2024-01-10
 [New Member Hike]: https://www.cmc.org/education-adventure/trips/find-trips/new-prospective-member-hikes-2013-apex-trailhead-24
 
@@ -283,6 +277,7 @@ Neighborhoods
 % | [Confluence Park][]                         | [Highlands][]    | street art                       |          |
 % | [Lincoln Park][]                            |                  |                                  |          |
 % | Tennison                                    |                  |                                  |          |
+% | Greenwood Village                           |                  |                                  |          |
 % |                                             |                  |                                  |          |
 
 [RiNo]: https://rinoartdistrict.org/
@@ -320,6 +315,14 @@ CMC
 * `$40` (`$125` for Family membership, minus the `$85` for individual)
 * `$50` for Under 30 membership
 
+### Upcoming Events
+
+| Course                    | Price  | Start  | Days | Location         |
+|---------------------------|--------|--------|------|------------------|
+| [New Member Hike][]       | -      | Dec 23 | 1    | Golden           |
+| [Photo Section Meeting][] | -      | Jan 10 | 1    | Golden           |
+% |                           |        |        |      |                  |
+
 ### Courses & Groups
 
 * [Schools & Classes](https://www.cmc.org/education-adventure/schools-courses)
@@ -343,3 +346,24 @@ CMC
 * [WTS][]
 * [WTS Application](https://www.cmc.org/groups-sections/front-range-groups/denver/course-templates/wilderness-trekking-school-student-application)
 * [WTS Course Materials](https://www.cmc.org/groups-sections/front-range-groups/denver/course-templates/wilderness-trekking-school-denver/course-materials)
+
+---  
+
+TODO
+----
+
+:::{dropdown}
+
+* Greenwood Village
+* [South Gaylord](https://www.denver.org/neighborhoods/washington-park/)
+* [Federal](https://www.denver.org/neighborhoods/federal-boulevard/)
+* [Littleton](https://www.denver.org/neighborhoods/littleton/)
+* [Central Park](https://www.denver.org/neighborhoods/central-park-lowry-northfield/)
+* [Lakewood](https://www.denver.org/neighborhoods/belmar-lakewood/)
+* [Arvada](https://www.denver.org/neighborhoods/olde-town-arvada/)
+* [Golden](https://www.denver.org/neighborhoods/golden/)
+* [Turnvine](https://www.denverturnverein.com/)
+* [Woodhouse Spa](https://locations.woodhousespas.com/dir/co/denver/941-east-17th-ave)
+* [Marczyk Fine Foods](https://marczykfinefoods.com/)
+
+:::
