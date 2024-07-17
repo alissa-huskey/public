@@ -4,8 +4,9 @@ Erie Move
 Fairview Airbnb
 ---------------
 
-* [Airbnb > Cottage II](https://www.airbnb.com/rooms/25009907?source_impression_id=p3_1721227866_P3K3856i5Vh4j8G0)
-* [Guidebook for Fairview](https://www.airbnb.com/s/guidebooks?refinement_paths[]=/guidebooks/83575)
+* [Listing: Cottage II](https://www.airbnb.com/rooms/25009907?source_impression_id=p3_1721227866_P3K3856i5Vh4j8G0)
+* [Host's Guidebook for Fairview](https://www.airbnb.com/s/guidebooks?refinement_paths[]=/guidebooks/83575)
+* [Reservation Details](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMDKHWXEXR) *(Requires booker login.)*
 
 |                 |                                          |
 |-----------------|------------------------------------------|
