@@ -365,5 +365,52 @@ TODO
 * [Turnvine](https://www.denverturnverein.com/)
 * [Woodhouse Spa](https://locations.woodhousespas.com/dir/co/denver/941-east-17th-ave)
 * [Marczyk Fine Foods](https://marczykfinefoods.com/)
+* Sushi Den
+* Root Down
+* Jax Seafood
+* The Bird
+* Mo's BBQ
+* Illegal Pete's
+* The Wizards Chest
+* Bacon Social House
+* Ignite Bistro & Wine
+* Grandma's
+* Humbolt Kitchen & Bar
+* Next Door
+* Glendale
+* Potbelly Sandwich Shop
+* Gozo
+* Breckenridge Brewery
+* Green Russle
+* Crimson Rose Masquerade
+* Art Store
+* Halloween Store
+* Uno Mas
+* Rioja
+* Sushi Sasa
+* Tacos Rapidos
+* Stella's
+* True Food
+* GB Fish & Chips
+* Fashion Nation
+* Enchanted Grounds
+* El Five
+* Stout Street Social
+* That fancy gastropub
+* Cana Wine Bar
+* Turtle Boat
+* Crimson Rose Masquerade
+* Carboy Winery
+* Rhein Hause
+* Matsuhisa
+* Adelitas Cocina Y Cantina
+* Breakfast on Broadway
+* Spices Cafe
+* Snooze, AM Eatery
+* Table 6
+* The Clocktower Cabaret
+* Tattered Cover - Colfax Avenue
+* Jelly
+
 
 :::
