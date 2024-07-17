@@ -48,7 +48,7 @@ Fairview Airbnb
 * Cleaning available during stay. \
   (*According to host message: On request at extra charge.*)
 * Security: "Security camera on OUTSIDE of premises near front door."
-* Accessability: 3 stairs to back entrance off sunporch.
+* Accessibility: 3 stairs to back entrance off sunporch.
 * Some spaces are shared. \
   (*From "Property Info."* \
   *Host message: Means "if there is another party in the house other than the guest, they have to walk through the bedroom to get to the bathroom."*)
@@ -58,8 +58,8 @@ Fairview Airbnb
 
 > **Summary**
 >
-> There's a 48 hour grace period after booking. Within the first 30 days you
-> can give 30 days notice. After that there's no refund.
+> There's a 48 hour grace period after booking. Up to the 30th day of the
+> reservation you can give 30 days notice. After that there's no refund.
 >
 > (As I understand it.)
 
