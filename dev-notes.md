@@ -8,6 +8,15 @@ Static html pages are generated using [Jupyter Book][] and published on
 [Github Pages]: https://pages.github.com/
 [Github Actions]: https://github.com/features/actions
 
+tl;dr
+-----
+
+1. Public docs are in [docs/](docs) and written in markdown. New pages must be
+   added to [](docs/_toc.yml).
+2. Use `./tools/build` to build.
+4. Use `./tools/serve` to start a local server.
+6. View local changes at: http://localhost:1314
+
 Build
 -----
 
@@ -15,6 +24,8 @@ Build
 
 * Poetry
 * Python 3.9+
+
+### Details
 
 To run a local build first use poetry to install dependencies and start a
 shell.
@@ -26,7 +37,7 @@ Generate static pages and run a web server, using the bash scripts in the
 # generate the static files
 jupyter-book build docs
 
-# start a HTTP server at http://localhost:1313
+# start a HTTP server at http://localhost:1314
 python -m http.server --directory docs/_build/html
 ```
 
