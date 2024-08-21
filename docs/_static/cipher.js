@@ -76,7 +76,7 @@ function protect() {
   // user canceled -- redirect to a public page
   if (text === null) {
     clearInterval(retry);
-    window.location.href = "/intro.html";
+    window.location.href = "intro.html";
   }
 
   // get the Passcode object for their password attempt
