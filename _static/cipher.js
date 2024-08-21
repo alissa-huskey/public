@@ -95,7 +95,13 @@ function protect() {
         protect()
       } else {
         document.cookie = SECRET;
-        document.location.reload();
+        // document.location.reload();
+        var unhide = setInterval(() => {
+          if (document.readyState == "complete") {
+            $("body").show();
+            clearInterval(unhide);
+          }
+        }, 500)
       }
     }
   }
