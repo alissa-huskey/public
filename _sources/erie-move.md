@@ -217,3 +217,16 @@ equipment.
 * 3 barstools
 * 1 folding Adirondack chair
 * 1 smallish rolling cart
+
+Storage
+-------
+
+|         |                                    |
+|---------|------------------------------------|
+| Name    | [West Ridge Self Storage][]        |
+| Address | 4271 West Ridge Rd, Erie, PA 16506 |
+| Phone   | (814) 261-0498                     |
+| Unit    | B-34                               |
+| Size    | 10' x 10'                          |
+
+[West Ridge Self Storage]: https://www.westridgeselfstorage.com/4271-west-ridge-rd-erie-pa-16506
